@@ -1,0 +1,42 @@
+*{ /*  RESET DO CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#topo{
+    background-color: rgba(31, 122, 201, 0.534);
+    width: 100%;
+    height: 15vh;
+}
+#menu{
+    background-color: rgba(143, 16, 16, 0.534);
+    width: 100%;
+    height: 10vh;
+}
+#principal{
+    background-color: rgba(8, 83, 12, 0.534);
+    width: 70%;
+    height: 60vh;
+}
+#patrocinio{
+    background-color: rgba(113, 156, 12, 0.534);
+    width: 30%;
+    height: 60vh;
+}
+#rodape{
+    background-color: rgba(31, 175, 201, 0.534);
+    width: 100%;
+    height: 15vh;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
